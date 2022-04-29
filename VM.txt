@@ -1,0 +1,15 @@
+2022-04-29
+
+#Create a new VM using PowerShell
+New-AzVM -ResourceGroupName -Name -Location -VirtualNetworkName -SubnetName -SecurityGroupName -PublicIpAddressName -
+
+# Stop the VM
+Stop-AzVM -Name "aznewvm" -ResourceGroupName "powershellgrp"
+
+# AzureCLI
+az group create --name cligroup --location eastus
+az vm create --resouce-group cligroup --name aznewvm2 --image win2016datecenter --admin--username ***
+
+# RDP using port 3389
+
+# Default VM size Azure wants to use when creating a VM: Standard DS1

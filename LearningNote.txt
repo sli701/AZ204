@@ -1,4 +1,0 @@
-2022-04-29
-
-#Create a new VM
-New-AzVM -ResourceGroupName -Name -Location -VirtualNetworkName -SubnetName -SecurityGroupName -PublicIpAddressName -OpenPorts
