@@ -1,0 +1,8 @@
+#Create a new project
+django-admin startprojet PROJECT_NAME
+
+#run a django web application
+python manage.py runserver
+
+#Create a new web application under django
+python manage.py startapp <APP_NAME>
